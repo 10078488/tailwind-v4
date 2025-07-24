@@ -328,6 +328,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-\[2px\] {
+    height: 2px;
+  }
   .h-\[13px\] {
     height: 13px;
   }
@@ -433,6 +436,9 @@
   .h-\[612px\] {
     height: 612px;
   }
+  .h-\[px\] {
+    height: px;
+  }
   .h-dvh {
     height: 100dvh;
   }
@@ -468,6 +474,9 @@
   }
   .w-\[20px\] {
     width: 20px;
+  }
+  .w-\[24px\] {
+    width: 24px;
   }
   .w-\[30px\] {
     width: 30px;
@@ -682,11 +691,17 @@
   .bg-\[\#7DC3EB\] {
     background-color: #7DC3EB;
   }
+  .bg-\[\#90\] {
+    background-color: #90;
+  }
   .bg-\[\#748C70\] {
     background-color: #748C70;
   }
   .bg-\[\#748c70\] {
     background-color: #748c70;
+  }
+  .bg-\[\#9092\] {
+    background-color: #9092;
   }
   .bg-\[\#19418e\] {
     background-color: #19418e;
@@ -697,11 +712,17 @@
   .bg-\[\#909225\] {
     background-color: #909225;
   }
+  .bg-\[\#\] {
+    background-color: #;
+  }
   .bg-\[\#d0a5ea\] {
     background-color: #d0a5ea;
   }
   .bg-\[\#fff\] {
     background-color: #fff;
+  }
+  .bg-\[0c0c0c\] {
+    background-color: 0c0c0c;
   }
   .bg-black {
     background-color: var(--color-black);
@@ -906,6 +927,11 @@
       height: 55px;
     }
   }
+  .sm\:h-\[279p\] {
+    @media (width >= 40rem) {
+      height: 279p;
+    }
+  }
   .sm\:h-\[279px\] {
     @media (width >= 40rem) {
       height: 279px;
@@ -1009,6 +1035,11 @@
   .sm\:text-\[16px\] {
     @media (width >= 40rem) {
       font-size: 16px;
+    }
+  }
+  .md\:top-\[14px\] {
+    @media (width >= 48rem) {
+      top: 14px;
     }
   }
   .md\:top-\[18px\] {
@@ -1306,6 +1337,11 @@
       height: calc(var(--spacing) * 8);
     }
   }
+  .lg\:h-\[3px\] {
+    @media (width >= 64rem) {
+      height: 3px;
+    }
+  }
   .lg\:h-\[22px\] {
     @media (width >= 64rem) {
       height: 22px;
@@ -1319,6 +1355,11 @@
   .lg\:h-\[32px\] {
     @media (width >= 64rem) {
       height: 32px;
+    }
+  }
+  .lg\:h-\[38px\] {
+    @media (width >= 64rem) {
+      height: 38px;
     }
   }
   .lg\:h-\[40px\] {
@@ -1729,6 +1770,11 @@
       height: 411px;
     }
   }
+  .xl\:h-\[438px\] {
+    @media (width >= 80rem) {
+      height: 438px;
+    }
+  }
   .xl\:h-\[455px\] {
     @media (width >= 80rem) {
       height: 455px;
@@ -2075,9 +2121,24 @@
       height: 1912px;
     }
   }
+  .\32 xl\:h-\[px\] {
+    @media (width >= 96rem) {
+      height: px;
+    }
+  }
   .\32 xl\:h-full {
     @media (width >= 96rem) {
       height: 100%;
+    }
+  }
+  .\32 xl\:h-px {
+    @media (width >= 96rem) {
+      height: 1px;
+    }
+  }
+  .\32 xl\:w-\[22px\] {
+    @media (width >= 96rem) {
+      width: 22px;
     }
   }
   .\32 xl\:w-\[26px\] {
